@@ -26,7 +26,7 @@ https://hightechlowlife.eu
 
 
 
-Project licensied under MIT License, see ./LICENSE.md for more informations
+Project licensed under MIT License, see ./LICENSE.md for more information
 
 
 UTILITY
@@ -47,8 +47,8 @@ IT DOES NOT IN ANY WAY MEAN THAT THE FILE IS NOT DANGEROUS/INFECTED.
 - Now let's say a trusted publisher upload a legit file and its computed SHA256 checksum
 - You download the file, compute the SHA256 hash on your side, and verify that the SHA256 hashes correspond ...
 - And they don't...
-- DO NOT USE THIS FILE!!! It is possibly infected/tampered/broken and we can no longer assume it is what the publisher originally intented to share
-- Try re-downloading the file, from another source if possible or contact the publisher to get more infos
+- DO NOT USE THIS FILE!!! It is possibly infected/tampered/broken and we can no longer assume it is what the publisher originally intended to share
+- Try re-downloading the file, from another source if possible or contact the publisher to get more info
 
 >Example 3:
 - Now let's say a trusted publisher upload a legit file and its computed SHA1 checksum
@@ -57,7 +57,7 @@ IT DOES NOT IN ANY WAY MEAN THAT THE FILE IS NOT DANGEROUS/INFECTED.
 - You can finally be sure that the file you downloaded is the file the publisher uploaded. Enjoy!
 
 
-I'd still want to point out that there are ways to get around authenticity of a file and fool hash checking, with for example collision attacks on a compromised uploaded file. You can minimize the risk of this kind of attack by comparing many different checksums (according that they are provided by the publisher) but in the end, it will be more secure if the publisher digitally sign the checksum, ensuring only him could upload this file & hash & signature combination is what was intented to be transmitted, by the person who we thought it was.
+I'd still want to point out that there are ways to get around authenticity of a file and fool hash checking, with for example collision attacks on a compromised uploaded file. You can minimize the risk of this kind of attack by comparing many different checksums (according that they are provided by the publisher) but in the end, it will be more secure if the publisher digitally sign the checksum, ensuring only him could upload this file & hash & signature combination is what was intended to be transmitted, by the person who we thought it was.
 
 HOW TO INSTALL
 ==============
@@ -66,7 +66,7 @@ Just grab HashChecker.exe and launch it.
 
 As a .Net program, it currently only supports Windows Operating system.
 
-At the time of this writing, the program has been tested on Linux through wine and seems to work correctly. However no support will be officially given for non-windows users. This software is planned to be ported to Java, wich will then be cross-plateform and allow full support for every common operating system.
+At the time of this writing, the program has been tested on Linux through wine and seems to work correctly. However, no support will be officially given for non-windows users. This software is planned to be ported to Java, which will then be cross-platform and allow full support for every common operating system.
 
 CHANGELOG
 =========
@@ -109,9 +109,9 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 ======
 - Verify the hash case insensitively (a==A) ~Dun
 
-- Create an 'uploader' section wich will compute and format all the hashes for a file publisher. ~Dun
+- Create an 'uploader' section which will compute and format all the hashes for a file publisher. ~Dun
 
-- Using the VirusTotal API (https://www.virustotal.com/en/documentation/public-api/) to get security infos about the submitted files on a third tab
+- Using the VirusTotal API (https://www.virustotal.com/en/documentation/public-api/) to get security info about the submitted files on a third tab
 
 - Adding a progress bar system or a cancel option for freezes / long time without response (in the case of hashing big files for example)
 
